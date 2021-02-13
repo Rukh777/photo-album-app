@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'nukq0(e6)#-2ip*uwd&*sb8(4&m45#t3w32&t-ha)b!7nm-3td'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['photogallleryapp.herokuapp.com','127.0.0.1']
 
 
 # Application definition
